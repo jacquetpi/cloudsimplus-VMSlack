@@ -282,9 +282,10 @@ public abstract class VmAllocationPolicyAbstract implements VmAllocationPolicy {
             LOGGER.error(
                 "{}: {}: There is no Hosts in {} for requesting {} creation.",
                 datacenter.getSimulation().clockStr(), getClass().getSimpleName(), datacenter, vmStr);
-            return true;
+            throw new IllegalStateException(); // to be faster
+            //return true;
         }
-
+        
         return false;
     }
 

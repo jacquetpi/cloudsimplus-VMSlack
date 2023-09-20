@@ -177,7 +177,7 @@ public class CloudFactoryGeneratedWorkload {
             simulation.start();
         }
         catch(IllegalStateException e){ // our shortcut
-            System.out.println("Simulation aborded! Not enough host"); 
+            System.out.println("Simulation aborded! No suitable host found"); 
         }
         
         
