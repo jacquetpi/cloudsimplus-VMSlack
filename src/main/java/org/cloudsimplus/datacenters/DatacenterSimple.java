@@ -845,6 +845,7 @@ public class DatacenterSimple extends CloudSimEntity implements Datacenter {
     public void requestVmMigration(final Vm sourceVm) {
         final var targetHost = vmAllocationPolicy.findHostForVm(sourceVm).orElse(Host.NULL);
         if(Host.NULL.equals(targetHost)) {
+            
             LOGGER.warn("{}: {}: No suitable host found for {} in {}", sourceVm.getSimulation().clockStr(), this, sourceVm, this);
             return;
         }

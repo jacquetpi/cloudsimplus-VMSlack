@@ -1,0 +1,1015 @@
+Chosen environmnent: 3 host(s) with 64 vCPU and 262144 dram (mb)
+Starting CloudFactory generated scenario 
+[34mINFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+[0;39m[34mINFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+[0;39m[34mINFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+[0;39m[34mINFO  
+================== Starting CloudSim Plus 8.5.0 ==================
+
+[0;39m[34mINFO  0,00: #Datacenter 1 is starting...
+[0;39m[34mINFO  Broker 2 is starting...
+[0;39m[34mINFO  Entities started.
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: List of 1 datacenters(s) received.
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 170 inside #Datacenter 1 will be requested in 2196.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 291 inside #Datacenter 1 will be requested in 5364.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 290 inside #Datacenter 1 will be requested in 5688.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 172 inside #Datacenter 1 will be requested in 2772.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 293 inside #Datacenter 1 will be requested in 5508.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 171 inside #Datacenter 1 will be requested in 2268.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 292 inside #Datacenter 1 will be requested in 5940.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 174 inside #Datacenter 1 will be requested in 2880.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 295 inside #Datacenter 1 will be requested in 5544.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 173 inside #Datacenter 1 will be requested in 2916.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 294 inside #Datacenter 1 will be requested in 5364.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 176 inside #Datacenter 1 will be requested in 2700.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 297 inside #Datacenter 1 will be requested in 5688.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 175 inside #Datacenter 1 will be requested in 3312.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 296 inside #Datacenter 1 will be requested in 5256.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 178 inside #Datacenter 1 will be requested in 2772.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 299 inside #Datacenter 1 will be requested in 5616.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 177 inside #Datacenter 1 will be requested in 3420.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 298 inside #Datacenter 1 will be requested in 5400.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 179 inside #Datacenter 1 will be requested in 2952.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 99 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 98 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 97 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 280 inside #Datacenter 1 will be requested in 5508.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 96 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 95 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 161 inside #Datacenter 1 will be requested in 2556.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 282 inside #Datacenter 1 will be requested in 5292.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 94 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 160 inside #Datacenter 1 will be requested in 2376.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 281 inside #Datacenter 1 will be requested in 5868.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 93 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 163 inside #Datacenter 1 will be requested in 2196.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 284 inside #Datacenter 1 will be requested in 5904.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 92 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 162 inside #Datacenter 1 will be requested in 2232.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 283 inside #Datacenter 1 will be requested in 5580.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 165 inside #Datacenter 1 will be requested in 1872.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 286 inside #Datacenter 1 will be requested in 5976.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 164 inside #Datacenter 1 will be requested in 2232.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 285 inside #Datacenter 1 will be requested in 5292.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 167 inside #Datacenter 1 will be requested in 1944.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 288 inside #Datacenter 1 will be requested in 5688.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 166 inside #Datacenter 1 will be requested in 1764.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 287 inside #Datacenter 1 will be requested in 5940.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 169 inside #Datacenter 1 will be requested in 2232.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 168 inside #Datacenter 1 will be requested in 2268.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 289 inside #Datacenter 1 will be requested in 5868.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 91 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 90 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 190 inside #Datacenter 1 will be requested in 3276.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 192 inside #Datacenter 1 will be requested in 2880.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 191 inside #Datacenter 1 will be requested in 3384.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 194 inside #Datacenter 1 will be requested in 3204.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 193 inside #Datacenter 1 will be requested in 2772.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 196 inside #Datacenter 1 will be requested in 3384.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 195 inside #Datacenter 1 will be requested in 3024.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 198 inside #Datacenter 1 will be requested in 2880.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 197 inside #Datacenter 1 will be requested in 3096.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 199 inside #Datacenter 1 will be requested in 2736.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 0 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 2 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 1 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 4 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 3 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 6 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 5 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 8 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 7 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 181 inside #Datacenter 1 will be requested in 2736.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 9 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 180 inside #Datacenter 1 will be requested in 3348.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 183 inside #Datacenter 1 will be requested in 2952.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 182 inside #Datacenter 1 will be requested in 3240.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 185 inside #Datacenter 1 will be requested in 2988.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 184 inside #Datacenter 1 will be requested in 2772.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 187 inside #Datacenter 1 will be requested in 2628.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 186 inside #Datacenter 1 will be requested in 3420.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 189 inside #Datacenter 1 will be requested in 3132.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 188 inside #Datacenter 1 will be requested in 3204.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 130 inside #Datacenter 1 will be requested in 1080.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 251 inside #Datacenter 1 will be requested in 4356.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 250 inside #Datacenter 1 will be requested in 4428.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 132 inside #Datacenter 1 will be requested in 1116.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 253 inside #Datacenter 1 will be requested in 4896.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 131 inside #Datacenter 1 will be requested in 1116.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 252 inside #Datacenter 1 will be requested in 4896.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 134 inside #Datacenter 1 will be requested in 1224.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 255 inside #Datacenter 1 will be requested in 5148.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 133 inside #Datacenter 1 will be requested in 1548.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 254 inside #Datacenter 1 will be requested in 5040.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 136 inside #Datacenter 1 will be requested in 1836.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 257 inside #Datacenter 1 will be requested in 4896.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 135 inside #Datacenter 1 will be requested in 1584.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 256 inside #Datacenter 1 will be requested in 5040.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 138 inside #Datacenter 1 will be requested in 1836.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 259 inside #Datacenter 1 will be requested in 5112.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 137 inside #Datacenter 1 will be requested in 1872.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 258 inside #Datacenter 1 will be requested in 4788.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 129 inside #Datacenter 1 will be requested in 1116.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 128 inside #Datacenter 1 will be requested in 1008.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 249 inside #Datacenter 1 will be requested in 4464.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 240 inside #Datacenter 1 will be requested in 4068.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 121 inside #Datacenter 1 will be requested in 1008.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 242 inside #Datacenter 1 will be requested in 3528.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 120 inside #Datacenter 1 will be requested in 1296.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 241 inside #Datacenter 1 will be requested in 3888.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 123 inside #Datacenter 1 will be requested in 1224.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 244 inside #Datacenter 1 will be requested in 5148.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 122 inside #Datacenter 1 will be requested in 1620.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 243 inside #Datacenter 1 will be requested in 3600.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 125 inside #Datacenter 1 will be requested in 1296.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 246 inside #Datacenter 1 will be requested in 4644.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 124 inside #Datacenter 1 will be requested in 1620.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 245 inside #Datacenter 1 will be requested in 4464.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 127 inside #Datacenter 1 will be requested in 1620.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 248 inside #Datacenter 1 will be requested in 4500.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 126 inside #Datacenter 1 will be requested in 1116.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 247 inside #Datacenter 1 will be requested in 4824.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 118 inside #Datacenter 1 will be requested in 1080.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 239 inside #Datacenter 1 will be requested in 3996.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 117 inside #Datacenter 1 will be requested in 1008.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 238 inside #Datacenter 1 will be requested in 3888.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 119 inside #Datacenter 1 will be requested in 1224.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 150 inside #Datacenter 1 will be requested in 2448.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 271 inside #Datacenter 1 will be requested in 4788.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 270 inside #Datacenter 1 will be requested in 4716.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 152 inside #Datacenter 1 will be requested in 2268.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 273 inside #Datacenter 1 will be requested in 4860.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 151 inside #Datacenter 1 will be requested in 2448.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 272 inside #Datacenter 1 will be requested in 4428.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 154 inside #Datacenter 1 will be requested in 1800.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 275 inside #Datacenter 1 will be requested in 4392.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 153 inside #Datacenter 1 will be requested in 1980.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 274 inside #Datacenter 1 will be requested in 5148.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 156 inside #Datacenter 1 will be requested in 2196.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 277 inside #Datacenter 1 will be requested in 4788.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 155 inside #Datacenter 1 will be requested in 2268.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 276 inside #Datacenter 1 will be requested in 4392.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 158 inside #Datacenter 1 will be requested in 1944.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 279 inside #Datacenter 1 will be requested in 4860.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 157 inside #Datacenter 1 will be requested in 2232.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 278 inside #Datacenter 1 will be requested in 5112.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 159 inside #Datacenter 1 will be requested in 1944.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 260 inside #Datacenter 1 will be requested in 4500.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 141 inside #Datacenter 1 will be requested in 2448.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 262 inside #Datacenter 1 will be requested in 4716.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 140 inside #Datacenter 1 will be requested in 2340.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 261 inside #Datacenter 1 will be requested in 4860.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 143 inside #Datacenter 1 will be requested in 2340.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 264 inside #Datacenter 1 will be requested in 5040.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 142 inside #Datacenter 1 will be requested in 2268.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 263 inside #Datacenter 1 will be requested in 4788.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 145 inside #Datacenter 1 will be requested in 2448.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 266 inside #Datacenter 1 will be requested in 5148.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 144 inside #Datacenter 1 will be requested in 2412.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 265 inside #Datacenter 1 will be requested in 5040.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 147 inside #Datacenter 1 will be requested in 2340.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 268 inside #Datacenter 1 will be requested in 5076.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 146 inside #Datacenter 1 will be requested in 2448.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 267 inside #Datacenter 1 will be requested in 5148.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 149 inside #Datacenter 1 will be requested in 1872.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 148 inside #Datacenter 1 will be requested in 2484.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 269 inside #Datacenter 1 will be requested in 4716.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 139 inside #Datacenter 1 will be requested in 2232.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 22 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 21 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 20 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 29 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 28 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 211 inside #Datacenter 1 will be requested in 3744.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 27 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 210 inside #Datacenter 1 will be requested in 3636.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 26 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 213 inside #Datacenter 1 will be requested in 3960.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 25 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 212 inside #Datacenter 1 will be requested in 3492.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 24 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 215 inside #Datacenter 1 will be requested in 3924.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 23 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 214 inside #Datacenter 1 will be requested in 3600.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 206 inside #Datacenter 1 will be requested in 3348.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 205 inside #Datacenter 1 will be requested in 2988.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 208 inside #Datacenter 1 will be requested in 3924.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 207 inside #Datacenter 1 will be requested in 2592.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 209 inside #Datacenter 1 will be requested in 3852.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 11 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 10 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 19 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 18 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 17 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 200 inside #Datacenter 1 will be requested in 3420.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 16 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 15 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 202 inside #Datacenter 1 will be requested in 2988.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 14 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 201 inside #Datacenter 1 will be requested in 2592.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 13 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 204 inside #Datacenter 1 will be requested in 3420.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 12 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 203 inside #Datacenter 1 will be requested in 2592.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 315 inside #Datacenter 1 will be requested in 5616.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 44 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 43 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 42 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 41 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 40 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 110 inside #Datacenter 1 will be requested in 1332.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 231 inside #Datacenter 1 will be requested in 3888.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 230 inside #Datacenter 1 will be requested in 4068.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 112 inside #Datacenter 1 will be requested in 1296.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 233 inside #Datacenter 1 will be requested in 4104.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 49 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 111 inside #Datacenter 1 will be requested in 1440.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 232 inside #Datacenter 1 will be requested in 3492.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 48 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 114 inside #Datacenter 1 will be requested in 1548.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 235 inside #Datacenter 1 will be requested in 4176.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 47 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 113 inside #Datacenter 1 will be requested in 1008.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 234 inside #Datacenter 1 will be requested in 4248.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 46 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 116 inside #Datacenter 1 will be requested in 1116.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 237 inside #Datacenter 1 will be requested in 3888.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 45 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 115 inside #Datacenter 1 will be requested in 1656.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 236 inside #Datacenter 1 will be requested in 3888.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 107 inside #Datacenter 1 will be requested in 1656.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 228 inside #Datacenter 1 will be requested in 4284.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 106 inside #Datacenter 1 will be requested in 1548.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 227 inside #Datacenter 1 will be requested in 3708.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 109 inside #Datacenter 1 will be requested in 1620.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 108 inside #Datacenter 1 will be requested in 864.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 229 inside #Datacenter 1 will be requested in 3528.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 33 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 32 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 31 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 30 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 220 inside #Datacenter 1 will be requested in 3564.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 101 inside #Datacenter 1 will be requested in 900.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 39 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 222 inside #Datacenter 1 will be requested in 3816.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 100 inside #Datacenter 1 will be requested in 1296.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 38 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 221 inside #Datacenter 1 will be requested in 3600.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 37 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 103 inside #Datacenter 1 will be requested in 972.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 224 inside #Datacenter 1 will be requested in 3528.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 36 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 102 inside #Datacenter 1 will be requested in 1692.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 223 inside #Datacenter 1 will be requested in 4248.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 35 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 105 inside #Datacenter 1 will be requested in 864.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 226 inside #Datacenter 1 will be requested in 3888.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 34 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 104 inside #Datacenter 1 will be requested in 1440.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 225 inside #Datacenter 1 will be requested in 3672.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 217 inside #Datacenter 1 will be requested in 4104.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 216 inside #Datacenter 1 will be requested in 3708.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 219 inside #Datacenter 1 will be requested in 3996.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 218 inside #Datacenter 1 will be requested in 3492.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 66 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 65 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 64 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 63 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 62 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 61 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 60 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 69 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 68 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 67 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 55 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 54 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 53 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 52 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 51 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 50 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 59 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 58 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 57 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 56 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 88 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 87 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 86 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 85 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 84 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 83 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 82 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 81 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 310 inside #Datacenter 1 will be requested in 5292.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 312 inside #Datacenter 1 will be requested in 5868.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 311 inside #Datacenter 1 will be requested in 5220.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 314 inside #Datacenter 1 will be requested in 5256.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 89 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 313 inside #Datacenter 1 will be requested in 5616.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 305 inside #Datacenter 1 will be requested in 5220.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 304 inside #Datacenter 1 will be requested in 5256.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 307 inside #Datacenter 1 will be requested in 5256.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 306 inside #Datacenter 1 will be requested in 5292.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 309 inside #Datacenter 1 will be requested in 5364.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 308 inside #Datacenter 1 will be requested in 5472.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 80 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 77 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 76 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 75 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 74 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 73 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 72 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 71 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 70 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 301 inside #Datacenter 1 will be requested in 5472.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 300 inside #Datacenter 1 will be requested in 5616.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 79 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 303 inside #Datacenter 1 will be requested in 5688.0 seconds
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 78 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Creation of Vm 302 inside #Datacenter 1 will be requested in 5256.0 seconds
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 99 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 99 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 98 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 98 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 97 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 97 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 96 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 96 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 95 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 95 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 94 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 94 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 93 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 93 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 92 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 92 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 91 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 91 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 90 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 90 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 0 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 0 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 2 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 2 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 1 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 1 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 4 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 4 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 3 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 3 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 6 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 6 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 5 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 5 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 8 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 8 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 7 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 7 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 9 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 9 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 22 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 22 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 21 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 21 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 20 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 20 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 29 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 29 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 28 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 28 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 27 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 27 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 26 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 26 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 25 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 25 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 24 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 24 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 23 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 23 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 11 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 11 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 10 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 10 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 19 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 19 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 18 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 18 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 17 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 17 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 16 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 16 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 15 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 15 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 14 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 14 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 13 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 13 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 12 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 12 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 44 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 44 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 43 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 43 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 42 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 42 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 41 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 41 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 40 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 40 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 49 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 49 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 48 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 48 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 47 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 47 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 46 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 46 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 45 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 45 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 33 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 33 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 32 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 32 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 31 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 31 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 30 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 30 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 39 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 39 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 38 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 38 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 37 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 37 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 36 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 36 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 35 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 35 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 34 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 34 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 66 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 66 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 65 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 65 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 64 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 64 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 63 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 63 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 62 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 62 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 61 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 61 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 60 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 60 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 69 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 69 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 68 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 68 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 67 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 67 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 55 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 55 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 54 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 54 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 53 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 53 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 52 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 52 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 51 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 51 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 50 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 50 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 59 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 59 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 58 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 58 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 57 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 57 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 56 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 56 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 88 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 88 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 87 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 87 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 86 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 86 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 85 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 85 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 84 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 84 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 83 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 83 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 82 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 82 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 81 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 81 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 89 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 89 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 80 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 80 has been allocated to Host 1/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 77 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 77 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 76 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 76 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 75 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 75 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 74 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 74 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 73 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 73 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 72 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 72 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 71 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 71 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 70 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 70 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 79 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 79 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,00: HostMultiClusters: Vm 78 is booting up right away in Host 2/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 78 has been allocated to Host 2/#DC 1
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 170 because bind Vm 170 was requested to be created with 2196,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 291 because bind Vm 291 was requested to be created with 5364,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 290 because bind Vm 290 was requested to be created with 5688,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 172 because bind Vm 172 was requested to be created with 2772,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 293 because bind Vm 293 was requested to be created with 5508,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 171 because bind Vm 171 was requested to be created with 2268,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 292 because bind Vm 292 was requested to be created with 5940,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 174 because bind Vm 174 was requested to be created with 2880,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 295 because bind Vm 295 was requested to be created with 5544,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 173 because bind Vm 173 was requested to be created with 2916,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 294 because bind Vm 294 was requested to be created with 5364,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 176 because bind Vm 176 was requested to be created with 2700,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 297 because bind Vm 297 was requested to be created with 5688,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 175 because bind Vm 175 was requested to be created with 3312,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 296 because bind Vm 296 was requested to be created with 5256,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 178 because bind Vm 178 was requested to be created with 2772,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 299 because bind Vm 299 was requested to be created with 5616,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 177 because bind Vm 177 was requested to be created with 3420,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 298 because bind Vm 298 was requested to be created with 5400,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 179 because bind Vm 179 was requested to be created with 2952,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 99 to Vm 99 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 98 to Vm 98 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 97 to Vm 97 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 280 because bind Vm 280 was requested to be created with 5508,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 96 to Vm 96 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 95 to Vm 95 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 161 because bind Vm 161 was requested to be created with 2556,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 282 because bind Vm 282 was requested to be created with 5292,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 94 to Vm 94 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 160 because bind Vm 160 was requested to be created with 2376,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 281 because bind Vm 281 was requested to be created with 5868,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 93 to Vm 93 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 163 because bind Vm 163 was requested to be created with 2196,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 284 because bind Vm 284 was requested to be created with 5904,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 92 to Vm 92 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 162 because bind Vm 162 was requested to be created with 2232,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 283 because bind Vm 283 was requested to be created with 5580,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 165 because bind Vm 165 was requested to be created with 1872,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 286 because bind Vm 286 was requested to be created with 5976,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 164 because bind Vm 164 was requested to be created with 2232,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 285 because bind Vm 285 was requested to be created with 5292,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 167 because bind Vm 167 was requested to be created with 1944,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 288 because bind Vm 288 was requested to be created with 5688,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 166 because bind Vm 166 was requested to be created with 1764,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 287 because bind Vm 287 was requested to be created with 5940,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 169 because bind Vm 169 was requested to be created with 2232,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 168 because bind Vm 168 was requested to be created with 2268,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 289 because bind Vm 289 was requested to be created with 5868,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 91 to Vm 91 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 90 to Vm 90 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 190 because bind Vm 190 was requested to be created with 3276,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 192 because bind Vm 192 was requested to be created with 2880,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 191 because bind Vm 191 was requested to be created with 3384,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 194 because bind Vm 194 was requested to be created with 3204,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 193 because bind Vm 193 was requested to be created with 2772,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 196 because bind Vm 196 was requested to be created with 3384,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 195 because bind Vm 195 was requested to be created with 3024,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 198 because bind Vm 198 was requested to be created with 2880,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 197 because bind Vm 197 was requested to be created with 3096,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 199 because bind Vm 199 was requested to be created with 2736,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 0 to Vm 0 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 2 to Vm 2 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 1 to Vm 1 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 4 to Vm 4 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 3 to Vm 3 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 6 to Vm 6 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 5 to Vm 5 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 8 to Vm 8 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 7 to Vm 7 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 181 because bind Vm 181 was requested to be created with 2736,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 9 to Vm 9 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 180 because bind Vm 180 was requested to be created with 3348,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 183 because bind Vm 183 was requested to be created with 2952,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 182 because bind Vm 182 was requested to be created with 3240,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 185 because bind Vm 185 was requested to be created with 2988,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 184 because bind Vm 184 was requested to be created with 2772,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 187 because bind Vm 187 was requested to be created with 2628,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 186 because bind Vm 186 was requested to be created with 3420,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 189 because bind Vm 189 was requested to be created with 3132,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 188 because bind Vm 188 was requested to be created with 3204,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 130 because bind Vm 130 was requested to be created with 1080,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 251 because bind Vm 251 was requested to be created with 4356,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 250 because bind Vm 250 was requested to be created with 4428,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 132 because bind Vm 132 was requested to be created with 1116,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 253 because bind Vm 253 was requested to be created with 4896,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 131 because bind Vm 131 was requested to be created with 1116,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 252 because bind Vm 252 was requested to be created with 4896,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 134 because bind Vm 134 was requested to be created with 1224,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 255 because bind Vm 255 was requested to be created with 5148,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 133 because bind Vm 133 was requested to be created with 1548,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 254 because bind Vm 254 was requested to be created with 5040,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 136 because bind Vm 136 was requested to be created with 1836,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 257 because bind Vm 257 was requested to be created with 4896,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 135 because bind Vm 135 was requested to be created with 1584,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 256 because bind Vm 256 was requested to be created with 5040,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 138 because bind Vm 138 was requested to be created with 1836,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 259 because bind Vm 259 was requested to be created with 5112,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 137 because bind Vm 137 was requested to be created with 1872,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 258 because bind Vm 258 was requested to be created with 4788,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 129 because bind Vm 129 was requested to be created with 1116,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 128 because bind Vm 128 was requested to be created with 1008,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 249 because bind Vm 249 was requested to be created with 4464,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 240 because bind Vm 240 was requested to be created with 4068,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 121 because bind Vm 121 was requested to be created with 1008,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 242 because bind Vm 242 was requested to be created with 3528,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 120 because bind Vm 120 was requested to be created with 1296,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 241 because bind Vm 241 was requested to be created with 3888,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 123 because bind Vm 123 was requested to be created with 1224,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 244 because bind Vm 244 was requested to be created with 5148,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 122 because bind Vm 122 was requested to be created with 1620,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 243 because bind Vm 243 was requested to be created with 3600,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 125 because bind Vm 125 was requested to be created with 1296,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 246 because bind Vm 246 was requested to be created with 4644,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 124 because bind Vm 124 was requested to be created with 1620,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 245 because bind Vm 245 was requested to be created with 4464,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 127 because bind Vm 127 was requested to be created with 1620,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 248 because bind Vm 248 was requested to be created with 4500,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 126 because bind Vm 126 was requested to be created with 1116,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 247 because bind Vm 247 was requested to be created with 4824,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 118 because bind Vm 118 was requested to be created with 1080,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 239 because bind Vm 239 was requested to be created with 3996,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 117 because bind Vm 117 was requested to be created with 1008,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 238 because bind Vm 238 was requested to be created with 3888,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 119 because bind Vm 119 was requested to be created with 1224,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 150 because bind Vm 150 was requested to be created with 2448,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 271 because bind Vm 271 was requested to be created with 4788,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 270 because bind Vm 270 was requested to be created with 4716,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 152 because bind Vm 152 was requested to be created with 2268,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 273 because bind Vm 273 was requested to be created with 4860,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 151 because bind Vm 151 was requested to be created with 2448,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 272 because bind Vm 272 was requested to be created with 4428,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 154 because bind Vm 154 was requested to be created with 1800,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 275 because bind Vm 275 was requested to be created with 4392,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 153 because bind Vm 153 was requested to be created with 1980,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 274 because bind Vm 274 was requested to be created with 5148,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 156 because bind Vm 156 was requested to be created with 2196,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 277 because bind Vm 277 was requested to be created with 4788,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 155 because bind Vm 155 was requested to be created with 2268,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 276 because bind Vm 276 was requested to be created with 4392,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 158 because bind Vm 158 was requested to be created with 1944,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 279 because bind Vm 279 was requested to be created with 4860,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 157 because bind Vm 157 was requested to be created with 2232,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 278 because bind Vm 278 was requested to be created with 5112,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 159 because bind Vm 159 was requested to be created with 1944,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 260 because bind Vm 260 was requested to be created with 4500,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 141 because bind Vm 141 was requested to be created with 2448,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 262 because bind Vm 262 was requested to be created with 4716,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 140 because bind Vm 140 was requested to be created with 2340,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 261 because bind Vm 261 was requested to be created with 4860,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 143 because bind Vm 143 was requested to be created with 2340,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 264 because bind Vm 264 was requested to be created with 5040,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 142 because bind Vm 142 was requested to be created with 2268,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 263 because bind Vm 263 was requested to be created with 4788,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 145 because bind Vm 145 was requested to be created with 2448,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 266 because bind Vm 266 was requested to be created with 5148,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 144 because bind Vm 144 was requested to be created with 2412,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 265 because bind Vm 265 was requested to be created with 5040,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 147 because bind Vm 147 was requested to be created with 2340,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 268 because bind Vm 268 was requested to be created with 5076,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 146 because bind Vm 146 was requested to be created with 2448,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 267 because bind Vm 267 was requested to be created with 5148,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 149 because bind Vm 149 was requested to be created with 1872,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 148 because bind Vm 148 was requested to be created with 2484,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 269 because bind Vm 269 was requested to be created with 4716,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 139 because bind Vm 139 was requested to be created with 2232,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 22 to Vm 22 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 21 to Vm 21 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 20 to Vm 20 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 29 to Vm 29 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 28 to Vm 28 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 211 because bind Vm 211 was requested to be created with 3744,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 27 to Vm 27 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 210 because bind Vm 210 was requested to be created with 3636,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 26 to Vm 26 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 213 because bind Vm 213 was requested to be created with 3960,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 25 to Vm 25 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 212 because bind Vm 212 was requested to be created with 3492,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 24 to Vm 24 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 215 because bind Vm 215 was requested to be created with 3924,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 23 to Vm 23 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 214 because bind Vm 214 was requested to be created with 3600,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 206 because bind Vm 206 was requested to be created with 3348,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 205 because bind Vm 205 was requested to be created with 2988,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 208 because bind Vm 208 was requested to be created with 3924,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 207 because bind Vm 207 was requested to be created with 2592,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 209 because bind Vm 209 was requested to be created with 3852,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 11 to Vm 11 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 10 to Vm 10 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 19 to Vm 19 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 18 to Vm 18 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 17 to Vm 17 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 200 because bind Vm 200 was requested to be created with 3420,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 16 to Vm 16 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 15 to Vm 15 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 202 because bind Vm 202 was requested to be created with 2988,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 14 to Vm 14 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 201 because bind Vm 201 was requested to be created with 2592,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 13 to Vm 13 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 204 because bind Vm 204 was requested to be created with 3420,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 12 to Vm 12 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 203 because bind Vm 203 was requested to be created with 2592,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 315 because bind Vm 315 was requested to be created with 5616,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 44 to Vm 44 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 43 to Vm 43 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 42 to Vm 42 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 41 to Vm 41 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 40 to Vm 40 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 110 because bind Vm 110 was requested to be created with 1332,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 231 because bind Vm 231 was requested to be created with 3888,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 230 because bind Vm 230 was requested to be created with 4068,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 112 because bind Vm 112 was requested to be created with 1296,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 233 because bind Vm 233 was requested to be created with 4104,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 49 to Vm 49 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 111 because bind Vm 111 was requested to be created with 1440,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 232 because bind Vm 232 was requested to be created with 3492,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 48 to Vm 48 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 114 because bind Vm 114 was requested to be created with 1548,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 235 because bind Vm 235 was requested to be created with 4176,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 47 to Vm 47 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 113 because bind Vm 113 was requested to be created with 1008,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 234 because bind Vm 234 was requested to be created with 4248,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 46 to Vm 46 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 116 because bind Vm 116 was requested to be created with 1116,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 237 because bind Vm 237 was requested to be created with 3888,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 45 to Vm 45 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 115 because bind Vm 115 was requested to be created with 1656,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 236 because bind Vm 236 was requested to be created with 3888,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 107 because bind Vm 107 was requested to be created with 1656,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 228 because bind Vm 228 was requested to be created with 4284,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 106 because bind Vm 106 was requested to be created with 1548,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 227 because bind Vm 227 was requested to be created with 3708,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 109 because bind Vm 109 was requested to be created with 1620,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 108 because bind Vm 108 was requested to be created with 864,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 229 because bind Vm 229 was requested to be created with 3528,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 33 to Vm 33 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 32 to Vm 32 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 31 to Vm 31 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 30 to Vm 30 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 220 because bind Vm 220 was requested to be created with 3564,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 101 because bind Vm 101 was requested to be created with 900,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 39 to Vm 39 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 222 because bind Vm 222 was requested to be created with 3816,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 100 because bind Vm 100 was requested to be created with 1296,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 38 to Vm 38 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 221 because bind Vm 221 was requested to be created with 3600,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 37 to Vm 37 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 103 because bind Vm 103 was requested to be created with 972,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 224 because bind Vm 224 was requested to be created with 3528,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 36 to Vm 36 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 102 because bind Vm 102 was requested to be created with 1692,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 223 because bind Vm 223 was requested to be created with 4248,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 35 to Vm 35 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 105 because bind Vm 105 was requested to be created with 864,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 226 because bind Vm 226 was requested to be created with 3888,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 34 to Vm 34 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 104 because bind Vm 104 was requested to be created with 1440,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 225 because bind Vm 225 was requested to be created with 3672,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 217 because bind Vm 217 was requested to be created with 4104,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 216 because bind Vm 216 was requested to be created with 3708,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 219 because bind Vm 219 was requested to be created with 3996,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 218 because bind Vm 218 was requested to be created with 3492,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 66 to Vm 66 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 65 to Vm 65 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 64 to Vm 64 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 63 to Vm 63 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 62 to Vm 62 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 61 to Vm 61 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 60 to Vm 60 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 69 to Vm 69 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 68 to Vm 68 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 67 to Vm 67 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 55 to Vm 55 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 54 to Vm 54 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 53 to Vm 53 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 52 to Vm 52 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 51 to Vm 51 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 50 to Vm 50 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 59 to Vm 59 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 58 to Vm 58 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 57 to Vm 57 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 56 to Vm 56 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 88 to Vm 88 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 87 to Vm 87 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 86 to Vm 86 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 85 to Vm 85 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 84 to Vm 84 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 83 to Vm 83 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 82 to Vm 82 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 81 to Vm 81 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 310 because bind Vm 310 was requested to be created with 5292,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 312 because bind Vm 312 was requested to be created with 5868,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 311 because bind Vm 311 was requested to be created with 5220,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 314 because bind Vm 314 was requested to be created with 5256,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 89 to Vm 89 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 313 because bind Vm 313 was requested to be created with 5616,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 305 because bind Vm 305 was requested to be created with 5220,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 304 because bind Vm 304 was requested to be created with 5256,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 307 because bind Vm 307 was requested to be created with 5256,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 306 because bind Vm 306 was requested to be created with 5292,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 309 because bind Vm 309 was requested to be created with 5364,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 308 because bind Vm 308 was requested to be created with 5472,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 80 to Vm 80 inside Host 1/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 77 to Vm 77 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 76 to Vm 76 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 75 to Vm 75 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 74 to Vm 74 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 73 to Vm 73 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 72 to Vm 72 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 71 to Vm 71 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 70 to Vm 70 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 301 because bind Vm 301 was requested to be created with 5472,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 300 because bind Vm 300 was requested to be created with 5616,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 79 to Vm 79 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 303 because bind Vm 303 was requested to be created with 5688,00 seconds delay.
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 78 to Vm 78 inside Host 2/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Postponing execution of Cloudlet 302 because bind Vm 302 was requested to be created with 5256,00 seconds delay.
+[0;39m[34mINFO  36,00: VmOversubscribable: Requesting Vm 96 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  36,00: VmOversubscribable: Requesting Vm 10 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  36,00: VmOversubscribable: Requesting Vm 61 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  36,00: DatacenterBrokerSimple2: Cloudlet 96 finished (after defined lifetime expired) in Vm 96 and returned to broker.
+[0;39m[34mINFO  36,00: VmOversubscribable: Requesting Vm 96 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  36,00: DatacenterBrokerSimple2: Cloudlet 10 finished (after defined lifetime expired) in Vm 10 and returned to broker.
+[0;39m[34mINFO  36,00: VmOversubscribable: Requesting Vm 10 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  36,00: DatacenterBrokerSimple2: Cloudlet 61 finished (after defined lifetime expired) in Vm 61 and returned to broker.
+[0;39m[34mINFO  36,00: VmOversubscribable: Requesting Vm 61 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  41,00: #Datacenter 1: Vm 96 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  41,00: #Datacenter 1: Vm 10 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  41,00: #Datacenter 1: Vm 61 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  41,00: #Datacenter 1: Vm 96 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  41,00: #Datacenter 1: Vm 10 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  41,00: #Datacenter 1: Vm 61 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  108,10: VmOversubscribable: Requesting Vm 22 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  108,10: VmOversubscribable: Requesting Vm 57 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  108,10: VmOversubscribable: Requesting Vm 76 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  108,10: DatacenterBrokerSimple2: Cloudlet 22 finished (after defined lifetime expired) in Vm 22 and returned to broker.
+[0;39m[34mINFO  108,10: VmOversubscribable: Requesting Vm 22 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  108,10: DatacenterBrokerSimple2: Cloudlet 57 finished (after defined lifetime expired) in Vm 57 and returned to broker.
+[0;39m[34mINFO  108,10: VmOversubscribable: Requesting Vm 57 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  108,10: DatacenterBrokerSimple2: Cloudlet 76 finished (after defined lifetime expired) in Vm 76 and returned to broker.
+[0;39m[34mINFO  108,10: VmOversubscribable: Requesting Vm 76 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  113,10: #Datacenter 1: Vm 22 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  113,10: #Datacenter 1: Vm 57 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  113,10: #Datacenter 1: Vm 76 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  113,10: #Datacenter 1: Vm 22 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  113,10: #Datacenter 1: Vm 57 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  113,10: #Datacenter 1: Vm 76 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 93 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 50 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 82 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 72 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: DatacenterBrokerSimple2: Cloudlet 93 finished (after defined lifetime expired) in Vm 93 and returned to broker.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 93 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: DatacenterBrokerSimple2: Cloudlet 50 finished (after defined lifetime expired) in Vm 50 and returned to broker.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 50 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: DatacenterBrokerSimple2: Cloudlet 82 finished (after defined lifetime expired) in Vm 82 and returned to broker.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 82 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  180,10: DatacenterBrokerSimple2: Cloudlet 72 finished (after defined lifetime expired) in Vm 72 and returned to broker.
+[0;39m[34mINFO  180,10: VmOversubscribable: Requesting Vm 72 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 93 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 50 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 82 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 72 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 93 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 50 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 82 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  185,10: #Datacenter 1: Vm 72 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  216,10: VmOversubscribable: Requesting Vm 98 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  216,10: VmOversubscribable: Requesting Vm 2 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  216,10: DatacenterBrokerSimple2: Cloudlet 98 finished (after defined lifetime expired) in Vm 98 and returned to broker.
+[0;39m[34mINFO  216,10: VmOversubscribable: Requesting Vm 98 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  216,10: DatacenterBrokerSimple2: Cloudlet 2 finished (after defined lifetime expired) in Vm 2 and returned to broker.
+[0;39m[34mINFO  216,10: VmOversubscribable: Requesting Vm 2 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  221,10: #Datacenter 1: Vm 98 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  221,10: #Datacenter 1: Vm 2 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  221,10: #Datacenter 1: Vm 98 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  221,10: #Datacenter 1: Vm 2 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  252,10: VmOversubscribable: Requesting Vm 56 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  252,10: DatacenterBrokerSimple2: Cloudlet 56 finished (after defined lifetime expired) in Vm 56 and returned to broker.
+[0;39m[34mINFO  252,10: VmOversubscribable: Requesting Vm 56 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  257,10: #Datacenter 1: Vm 56 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  257,10: #Datacenter 1: Vm 56 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  324,10: VmOversubscribable: Requesting Vm 11 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  324,10: VmOversubscribable: Requesting Vm 52 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  324,10: DatacenterBrokerSimple2: Cloudlet 11 finished (after defined lifetime expired) in Vm 11 and returned to broker.
+[0;39m[34mINFO  324,10: VmOversubscribable: Requesting Vm 11 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  324,10: DatacenterBrokerSimple2: Cloudlet 52 finished (after defined lifetime expired) in Vm 52 and returned to broker.
+[0;39m[34mINFO  324,10: VmOversubscribable: Requesting Vm 52 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  329,10: #Datacenter 1: Vm 11 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  329,10: #Datacenter 1: Vm 52 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  329,10: #Datacenter 1: Vm 11 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  329,10: #Datacenter 1: Vm 52 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  360,10: VmOversubscribable: Requesting Vm 6 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  360,10: DatacenterBrokerSimple2: Cloudlet 6 finished (after defined lifetime expired) in Vm 6 and returned to broker.
+[0;39m[34mINFO  360,10: VmOversubscribable: Requesting Vm 6 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  365,10: #Datacenter 1: Vm 6 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  365,10: #Datacenter 1: Vm 6 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  396,10: VmOversubscribable: Requesting Vm 73 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  396,10: DatacenterBrokerSimple2: Cloudlet 73 finished (after defined lifetime expired) in Vm 73 and returned to broker.
+[0;39m[34mINFO  396,10: VmOversubscribable: Requesting Vm 73 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  401,10: #Datacenter 1: Vm 73 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  401,10: #Datacenter 1: Vm 73 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 97 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 46 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 54 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 83 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: DatacenterBrokerSimple2: Cloudlet 97 finished (after defined lifetime expired) in Vm 97 and returned to broker.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 97 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: DatacenterBrokerSimple2: Cloudlet 46 finished (after defined lifetime expired) in Vm 46 and returned to broker.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 46 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: DatacenterBrokerSimple2: Cloudlet 54 finished (after defined lifetime expired) in Vm 54 and returned to broker.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 54 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  432,10: DatacenterBrokerSimple2: Cloudlet 83 finished (after defined lifetime expired) in Vm 83 and returned to broker.
+[0;39m[34mINFO  432,10: VmOversubscribable: Requesting Vm 83 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 97 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 46 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 54 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 83 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 97 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 46 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 54 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  437,10: #Datacenter 1: Vm 83 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  468,10: VmOversubscribable: Requesting Vm 40 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  468,10: DatacenterBrokerSimple2: Cloudlet 40 finished (after defined lifetime expired) in Vm 40 and returned to broker.
+[0;39m[34mINFO  468,10: VmOversubscribable: Requesting Vm 40 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  473,10: #Datacenter 1: Vm 40 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  473,10: #Datacenter 1: Vm 40 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  540,10: VmOversubscribable: Requesting Vm 94 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  540,10: VmOversubscribable: Requesting Vm 92 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  540,10: DatacenterBrokerSimple2: Cloudlet 94 finished (after defined lifetime expired) in Vm 94 and returned to broker.
+[0;39m[34mINFO  540,10: VmOversubscribable: Requesting Vm 94 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  540,10: DatacenterBrokerSimple2: Cloudlet 92 finished (after defined lifetime expired) in Vm 92 and returned to broker.
+[0;39m[34mINFO  540,10: VmOversubscribable: Requesting Vm 92 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  545,10: #Datacenter 1: Vm 94 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  545,10: #Datacenter 1: Vm 92 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  545,10: #Datacenter 1: Vm 94 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  545,10: #Datacenter 1: Vm 92 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  576,10: VmOversubscribable: Requesting Vm 18 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  576,10: VmOversubscribable: Requesting Vm 78 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  576,10: DatacenterBrokerSimple2: Cloudlet 18 finished (after defined lifetime expired) in Vm 18 and returned to broker.
+[0;39m[34mINFO  576,10: VmOversubscribable: Requesting Vm 18 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  576,10: DatacenterBrokerSimple2: Cloudlet 78 finished (after defined lifetime expired) in Vm 78 and returned to broker.
+[0;39m[34mINFO  576,10: VmOversubscribable: Requesting Vm 78 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  581,10: #Datacenter 1: Vm 18 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  581,10: #Datacenter 1: Vm 78 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  581,10: #Datacenter 1: Vm 18 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  581,10: #Datacenter 1: Vm 78 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  612,10: VmOversubscribable: Requesting Vm 25 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  612,10: DatacenterBrokerSimple2: Cloudlet 25 finished (after defined lifetime expired) in Vm 25 and returned to broker.
+[0;39m[34mINFO  612,10: VmOversubscribable: Requesting Vm 25 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  617,10: #Datacenter 1: Vm 25 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  617,10: #Datacenter 1: Vm 25 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  648,10: VmOversubscribable: Requesting Vm 5 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  648,10: VmOversubscribable: Requesting Vm 39 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  648,10: VmOversubscribable: Requesting Vm 53 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  648,10: DatacenterBrokerSimple2: Cloudlet 5 finished (after defined lifetime expired) in Vm 5 and returned to broker.
+[0;39m[34mINFO  648,10: VmOversubscribable: Requesting Vm 5 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  648,10: DatacenterBrokerSimple2: Cloudlet 39 finished (after defined lifetime expired) in Vm 39 and returned to broker.
+[0;39m[34mINFO  648,10: VmOversubscribable: Requesting Vm 39 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  648,10: DatacenterBrokerSimple2: Cloudlet 53 finished (after defined lifetime expired) in Vm 53 and returned to broker.
+[0;39m[34mINFO  648,10: VmOversubscribable: Requesting Vm 53 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  653,10: #Datacenter 1: Vm 5 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  653,10: #Datacenter 1: Vm 39 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  653,10: #Datacenter 1: Vm 53 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  653,10: #Datacenter 1: Vm 5 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  653,10: #Datacenter 1: Vm 39 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  653,10: #Datacenter 1: Vm 53 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  684,10: VmOversubscribable: Requesting Vm 71 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  684,10: DatacenterBrokerSimple2: Cloudlet 71 finished (after defined lifetime expired) in Vm 71 and returned to broker.
+[0;39m[34mINFO  684,10: VmOversubscribable: Requesting Vm 71 destruction on Host 2/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  689,10: #Datacenter 1: Vm 71 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  689,10: #Datacenter 1: Vm 71 destroyed on Host 2/#DC 1. 
+[0;39m[34mINFO  720,10: VmOversubscribable: Requesting Vm 8 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  720,10: VmOversubscribable: Requesting Vm 32 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  720,10: VmOversubscribable: Requesting Vm 64 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  720,10: DatacenterBrokerSimple2: Cloudlet 8 finished (after defined lifetime expired) in Vm 8 and returned to broker.
+[0;39m[34mINFO  720,10: VmOversubscribable: Requesting Vm 8 destruction on Host 0/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  720,10: DatacenterBrokerSimple2: Cloudlet 32 finished (after defined lifetime expired) in Vm 32 and returned to broker.
+[0;39m[34mINFO  720,10: VmOversubscribable: Requesting Vm 32 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  720,10: DatacenterBrokerSimple2: Cloudlet 64 finished (after defined lifetime expired) in Vm 64 and returned to broker.
+[0;39m[34mINFO  720,10: VmOversubscribable: Requesting Vm 64 destruction on Host 1/#DC 1 after reaching defined lifetime. Shutdown expected to finish in 5,00 seconds.
+[0;39m[34mINFO  725,10: #Datacenter 1: Vm 8 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  725,10: #Datacenter 1: Vm 32 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  725,10: #Datacenter 1: Vm 64 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  725,10: #Datacenter 1: Vm 8 destroyed on Host 0/#DC 1. 
+[0;39m[34mINFO  725,10: #Datacenter 1: Vm 32 destroyed on Host 1/#DC 1. 
+[0;39m[34mINFO  725,10: #Datacenter 1: Vm 64 destroyed on Host 1/#DC 1. 
+[0;39m

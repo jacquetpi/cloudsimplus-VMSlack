@@ -173,7 +173,13 @@ public class CloudFactoryGeneratedWorkload {
 
         createAndSubmitCloudFactoryVmsAndCloudlets();
 
-        simulation.start();
+        try{
+            simulation.start();
+        }
+        catch(IllegalStateException e){ // our shortcut
+            System.out.println("Simulation aborded! Not enough host"); 
+        }
+        
         
         printResults();
         System.out.println(getClass().getSimpleName() + " finished!");

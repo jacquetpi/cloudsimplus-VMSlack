@@ -259,7 +259,8 @@ public abstract class VmAllocationPolicyAbstract implements VmAllocationPolicy {
         LOGGER.warn(
             "{}: {}: No suitable host found for {} in {}",
             vm.getSimulation().clockStr(), getClass().getSimpleName(), vm, datacenter);
-        return new HostSuitability(vm, "No suitable host found");
+        throw new IllegalStateException(); // to be faster
+        //return new HostSuitability(vm, "No suitable host found");
     }
 
     /**
