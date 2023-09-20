@@ -131,6 +131,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
      */
     protected void allocateMipsShareForVm(final Vm vm, final MipsShare requestedMipsReduced) {
         final var mipsShare = getMipsShareToAllocate(vm, requestedMipsReduced);
+        //System.out.println("allocateMipsShareForVm " + mipsShare);
         ((VmOversubscribable)vm).setAllocatedMips(mipsShare);
     }
 
@@ -144,19 +145,14 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
     @Override
     protected boolean isSuitableForVmInternal(final Vm vm, final MipsShare requestedMips) {
         VmOversubscribable vmOversubscribable = (VmOversubscribable) vm;
-        System.out.println("> #Debug id" + vmOversubscribable.getId() + " : " + vmOversubscribable.getOversubscriptionLevel() + " " + requestedMips.pes() + "vcpu" + " " + requestedMips.totalMips() + "mips");
-        // System.out.println(multiClusterOversubscription);
         final double totalRequestedMips = requestedMips.totalMips();
-
         // Consult Oversubscription policy
-        long hostPesAllocation = getUsedResources();
-        //Float oversubscriptionLevelRequested = ((VmOversubscribable)vm).getOversubscriptionLevel();
-        //Boolean criticalSizeReached = consumerPerOversubscription.get(oversubscriptionLevelRequested).size() >= this.criticalSize;
-        System.out.println("Computed free resources " + (getHost().getWorkingPesNumber() - hostPesAllocation));
-        // This scheduler does not allow over-subscription of PEs' MIPS
+        long possibleNewHostAllocation = getUsedResources(vmOversubscribable);
+        //System.out.println("> #Debug id" + vmOversubscribable.getId() + " : " + vmOversubscribable.getOversubscriptionLevel() + " " + requestedMips.pes() + "vcpu" + " " + requestedMips.totalMips() + "mips");
+        //System.out.println("> #Debug AvailableMips " + getTotalAvailableMips() + " requested mips" + totalRequestedMips);
 
-        System.out.println("AvailableMips " + getTotalAvailableMips() + " requested mips" + totalRequestedMips);
-        return getHost().getWorkingPesNumber() >= requestedMips.pes() && getTotalAvailableMips() >= totalRequestedMips;
+        return possibleNewHostAllocation <= getHost().getWorkingPesNumber();
+        //return getHost().getWorkingPesNumber() >= requestedMips.pes() && getTotalAvailableMips() >= totalRequestedMips;
     }
 
     /**
@@ -206,7 +202,8 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         long afterPes = getUsedResources();
 
         long removedPes = afterPes - beforePes;
-        System.out.println("> #VM leaving id" + vmOversubscribable.getId() + " : " + vmOversubscribable.getOversubscriptionLevel() + " " + removedPes + "pes to remove");
+        //System.out.println("> #VM leaving id" + vmOversubscribable.getId() + " : " + vmOversubscribable.getOversubscriptionLevel() + " " + removedPes + "pes to remove");
+        //System.out.println("> #VM host " + getHost().getWorkingPesNumber() + "/" + getHost().getPesNumber());
         return removedPes;
     }
 

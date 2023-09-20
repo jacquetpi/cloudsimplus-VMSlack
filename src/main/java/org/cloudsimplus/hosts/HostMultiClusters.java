@@ -94,4 +94,11 @@ public class HostMultiClusters extends HostSimple {
         suitability.setForPes(vmScheduler.isSuitableForVm(vm));
         return suitability;
     }
+
+    protected void allocateResourcesForVm(final Vm vm) {
+        ramProvisioner.allocateResourceForVm(vm, vm.getCurrentRequestedRam());
+        bwProvisioner.allocateResourceForVm(vm, vm.getCurrentRequestedBw());
+        disk.getStorage().allocateResource(vm.getStorage());
+        vmScheduler.allocatePesForVm(vm, vm.getCurrentRequestedMips());
+    }
 }

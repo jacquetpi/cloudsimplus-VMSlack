@@ -32,6 +32,11 @@ public class VmOversubscribable extends VmSimple {
 
     protected Float oversubscriptionLevel;
 
+    public VmOversubscribable(final long id, final double mipsCapacity, final long pesNumber, final Float oversubscriptionLevel) {
+        super(id, (long) mipsCapacity, pesNumber);
+        this.oversubscriptionLevel = oversubscriptionLevel;
+    }
+
     public VmOversubscribable(final double mipsCapacity, final long pesNumber, final Float oversubscriptionLevel) {
         super(mipsCapacity, pesNumber);
         this.oversubscriptionLevel = oversubscriptionLevel;

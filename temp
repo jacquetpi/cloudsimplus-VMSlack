@@ -1,0 +1,112 @@
+Chosen environmnent: 1 host(s) with 256 vCPU and 1048576 dram (mb)
+Starting CloudFactory generated scenario 
+[34mINFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+[0;39mdebug lifetime1036800
+debug lifetime1036800
+debug lifetime1036800
+debug lifetime1036800
+debug lifetime1036800
+debug lifetime1036800
+debug lifetime1036800
+debug lifetime79200
+[34mINFO  
+================== Starting CloudSim Plus 8.5.0 ==================
+
+[0;39m[34mINFO  0,00: #Datacenter 1 is starting...
+[0;39m[34mINFO  Broker 2 is starting...
+[0;39m[34mINFO  Entities started.
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: List of 1 datacenters(s) received.
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 7 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 0 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 2 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 1 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 4 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 3 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 6 inside #Datacenter 1
+[0;39m[34mINFO  0,00: DatacenterBrokerSimple2: Trying to create Vm 5 inside #Datacenter 1
+[0;39m> #Debug id7 : 2.0 4vcpu 1000.0mips
+> #Debug AvailableMips 256000.0 requested mips1000.0
+> #Debug id7 : 2.0 4vcpu 1000.0mips
+> #Debug AvailableMips 256000.0 requested mips1000.0
+> #Debug id7 : 2.0 4vcpu 1000.0mips
+> #Debug AvailableMips 256000.0 requested mips1000.0
+allocateMipsShareForVm MipsShare{pes=4, mips=250.0}
+[34mINFO  0,00: HostMultiClusters: Vm 7 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 7 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id0 : 3.0 1vcpu 660.0mips
+> #Debug AvailableMips 255000.0 requested mips660.0
+> #Debug id0 : 3.0 1vcpu 660.0mips
+> #Debug AvailableMips 255000.0 requested mips660.0
+> #Debug id0 : 3.0 1vcpu 660.0mips
+> #Debug AvailableMips 255000.0 requested mips660.0
+allocateMipsShareForVm MipsShare{pes=1, mips=660.0}
+[34mINFO  0,00: HostMultiClusters: Vm 0 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 0 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id2 : 3.0 1vcpu 510.0mips
+> #Debug AvailableMips 254340.0 requested mips510.0
+> #Debug id2 : 3.0 1vcpu 510.0mips
+> #Debug AvailableMips 254340.0 requested mips510.0
+> #Debug id2 : 3.0 1vcpu 510.0mips
+> #Debug AvailableMips 254340.0 requested mips510.0
+allocateMipsShareForVm MipsShare{pes=1, mips=510.0}
+[34mINFO  0,00: HostMultiClusters: Vm 2 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 2 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id1 : 2.0 1vcpu 170.0mips
+> #Debug AvailableMips 253830.0 requested mips170.0
+> #Debug id1 : 2.0 1vcpu 170.0mips
+> #Debug AvailableMips 253830.0 requested mips170.0
+> #Debug id1 : 2.0 1vcpu 170.0mips
+> #Debug AvailableMips 253830.0 requested mips170.0
+allocateMipsShareForVm MipsShare{pes=1, mips=170.0}
+[34mINFO  0,00: HostMultiClusters: Vm 1 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 1 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id4 : 1.0 1vcpu 1000.0mips
+> #Debug AvailableMips 253660.0 requested mips1000.0
+> #Debug id4 : 1.0 1vcpu 1000.0mips
+> #Debug AvailableMips 253660.0 requested mips1000.0
+> #Debug id4 : 1.0 1vcpu 1000.0mips
+> #Debug AvailableMips 253660.0 requested mips1000.0
+allocateMipsShareForVm MipsShare{pes=1, mips=1000.0}
+[34mINFO  0,00: HostMultiClusters: Vm 4 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 4 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id3 : 3.0 1vcpu 630.0mips
+> #Debug AvailableMips 252660.0 requested mips630.0
+> #Debug id3 : 3.0 1vcpu 630.0mips
+> #Debug AvailableMips 252660.0 requested mips630.0
+> #Debug id3 : 3.0 1vcpu 630.0mips
+> #Debug AvailableMips 252660.0 requested mips630.0
+allocateMipsShareForVm MipsShare{pes=1, mips=630.0}
+[34mINFO  0,00: HostMultiClusters: Vm 3 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 3 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id6 : 2.0 2vcpu 160.0mips
+> #Debug AvailableMips 252030.0 requested mips160.0
+> #Debug id6 : 2.0 2vcpu 160.0mips
+> #Debug AvailableMips 252030.0 requested mips160.0
+> #Debug id6 : 2.0 2vcpu 160.0mips
+> #Debug AvailableMips 252030.0 requested mips160.0
+allocateMipsShareForVm MipsShare{pes=2, mips=80.0}
+[34mINFO  0,00: HostMultiClusters: Vm 6 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 6 has been allocated to Host 0/#DC 1
+[0;39m> #Debug id5 : 1.0 2vcpu 2000.0mips
+> #Debug AvailableMips 251870.0 requested mips2000.0
+> #Debug id5 : 1.0 2vcpu 2000.0mips
+> #Debug AvailableMips 251870.0 requested mips2000.0
+> #Debug id5 : 1.0 2vcpu 2000.0mips
+> #Debug AvailableMips 251870.0 requested mips2000.0
+allocateMipsShareForVm MipsShare{pes=2, mips=1000.0}
+[34mINFO  0,00: HostMultiClusters: Vm 5 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+[0;39m[34mINFO  0,00: VmAllocationPolicyFirstFit: Vm 5 has been allocated to Host 0/#DC 1
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 7 to Vm 7 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 0 to Vm 0 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 2 to Vm 2 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 1 to Vm 1 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 4 to Vm 4 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 3 to Vm 3 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 6 to Vm 6 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: Sending Cloudlet 5 to Vm 5 inside Host 0/#DC 1 in 0,00 seconds ().
+[0;39m[34mINFO  0,10: DatacenterBrokerSimple2: All 8 waiting Cloudlets submitted to some VM.
+[0;39m[34mINFO  79200,11: DatacenterBrokerSimple2: Cloudlet 5 finished (after defined lifetime expired) in Vm 5 and returned to broker.
+[0;39m[34mINFO  79210,22: VmOversubscribable: Requesting Vm 5 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+[0;39m> #VM leaving id5 : 1.0 -2pes to remove
+[34mINFO  79210,22: #Datacenter 1: Vm 5 destroyed on Host 0/#DC 1. 
+[0;39m

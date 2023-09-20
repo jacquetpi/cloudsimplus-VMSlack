@@ -2,6 +2,7 @@ target/
 output/
 install.sh
 maven-wrapper.jar
+*.properties
 
 #Ignore IntelliJ IDEA project files
 .idea/
