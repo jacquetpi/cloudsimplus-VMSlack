@@ -67,38 +67,53 @@ public class HostMultiClusters extends HostSimple {
         setVmScheduler(new VmSchedulerMultiClusters(peList, oversubscriptionLevels));
     }
 
-    private HostSuitability isSuitableForVm(final VmOversubscribable vm, final boolean inMigration, final boolean showFailureLog) {
+    @Override
+    protected HostSuitability isSuitableForVm(final Vm vm, final boolean inMigration, final boolean showFailureLog) {
         final var suitability = new HostSuitability(this, vm);
+        suitability.setForStorage(true);
+        suitability.setForRam(true);
+        suitability.setForBw(true);
 
-        suitability.setForStorage(disk.isAmountAvailable(vm.getStorage()));
-        if (!suitability.forStorage()) {
-            logAllocationError(showFailureLog, vm, inMigration, "MB", this.getStorage(), vm.getStorage());
-            if (lazySuitabilityEvaluation)
-                return suitability;
-        }
+        //suitability.setForStorage(disk.isAmountAvailable(vm.getStorage()));
+        // if (!suitability.forStorage()) {
+        //     logAllocationError(showFailureLog, vm, inMigration, "MB", this.getStorage(), vm.getStorage());
+        //     if (lazySuitabilityEvaluation)
+        //         return suitability;
+        // }
 
-        suitability.setForRam(ramProvisioner.isSuitableForVm(vm, vm.getRam()));
-        if (!suitability.forRam()) {
-            logAllocationError(showFailureLog, vm, inMigration, "MB", this.getRam(), vm.getRam());
-            if (lazySuitabilityEvaluation)
-                return suitability;
-        }
+        // suitability.setForRam(ramProvisioner.isSuitableForVm(vm, vm.getRam()));
+        // if (!suitability.forRam()) {
+        //     logAllocationError(showFailureLog, vm, inMigration, "MB", this.getRam(), vm.getRam());
+        //     if (lazySuitabilityEvaluation)
+        //         return suitability;
+        // }
 
-        suitability.setForBw(bwProvisioner.isSuitableForVm(vm, vm.getBw()));
-        if (!suitability.forBw()) {
-            logAllocationError(showFailureLog, vm, inMigration, "Mbps", this.getBw(), vm.getBw());
-            if (lazySuitabilityEvaluation)
-                return suitability;
-        }
+        // suitability.setForBw(bwProvisioner.isSuitableForVm(vm, vm.getBw()));
+        // if (!suitability.forBw()) {
+        //     logAllocationError(showFailureLog, vm, inMigration, "Mbps", this.getBw(), vm.getBw());
+        //     if (lazySuitabilityEvaluation)
+        //         return suitability;
+        // }
 
         suitability.setForPes(vmScheduler.isSuitableForVm(vm));
         return suitability;
     }
 
-    protected void allocateResourcesForVm(final Vm vm) {
-        ramProvisioner.allocateResourceForVm(vm, vm.getCurrentRequestedRam());
-        bwProvisioner.allocateResourceForVm(vm, vm.getCurrentRequestedBw());
-        disk.getStorage().allocateResource(vm.getStorage());
-        vmScheduler.allocatePesForVm(vm, vm.getCurrentRequestedMips());
+    @Override
+    public String toString() {
+        final char dist = datacenter.getCharacteristics().getDistribution().symbol();
+        final String dc =
+                datacenter == null || Datacenter.NULL.equals(datacenter) ? "" :
+                "/%cDC %d".formatted(dist, datacenter.getId());
+        return "Host %d%s".formatted(getId(), dc);
+    }
+
+    @Override
+    public int compareTo(final Host other) {
+        if(this.equals(requireNonNull(other))) {
+            return 0;
+        }
+
+        return Long.compare(this.id, other.getId());
     }
 }

@@ -84,7 +84,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         this.peList = peList;
         this.consumerPerOversubscription = new HashMap<Float, List<VmOversubscribable>>();
         this.resourceCountPerOversubscription = new HashMap<Float, Long>();
-        this.criticalSize = 1;
+        this.criticalSize = 5;
         for(Float oversubscription : oversubscriptionLevels){
             this.consumerPerOversubscription.put(oversubscription, new ArrayList<VmOversubscribable>());
             this.resourceCountPerOversubscription.put(oversubscription, new Long(0));
