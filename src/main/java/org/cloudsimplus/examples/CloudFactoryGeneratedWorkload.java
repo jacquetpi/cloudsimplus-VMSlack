@@ -123,6 +123,9 @@ public class CloudFactoryGeneratedWorkload {
 
     private static double currentTime;
 
+    private static String modelVmFile = "vms.properties";
+    private static String modelUsageFile = "models.properties";
+
     /**
      * Starts the example execution, calling the class constructor\
      * to build and run the simulation.
@@ -135,11 +138,14 @@ public class CloudFactoryGeneratedWorkload {
                 HOSTS = Integer.parseInt(args[0]);
                 HOST_PES_NUMBER = Integer.parseInt(args[1]);
                 HOST_MEMORY = Integer.parseInt(args[2])*1024;
-                if (args.length >= 4)
+                if (args.length >= 4 && !args[3].equals("no"))
                     filtered_oversubscription = Float.parseFloat(args[3]);
+                if (args.length >= 5)
+                    modelVmFile =  args[4];
+                if (args.length >= 6)
+                    modelUsageFile = args[5];
             } catch (NumberFormatException e) {
-                System.err.println("Usage : host_number cpu_number mem_gb");
-                System.err.println("Arguments must be integers.");
+                System.err.println("Usage : host_number cpu_number mem_gb [filtered_oversubscription]");
                 System.exit(1);
             }
         }
@@ -162,9 +168,9 @@ public class CloudFactoryGeneratedWorkload {
         currentTime = 0;
         simulation.addOnClockTickListener(this::onClockTickListener);
 
-		vmTemplateList = loadCloudFactoryVMs("vms.properties");
-		usageModels = loadCloudFactoryModels("models.properties");
-
+		vmTemplateList = loadCloudFactoryVMs(modelVmFile);
+		usageModels = loadCloudFactoryModels(modelUsageFile);
+        
         this.hostList = new ArrayList<>();
         this.vmList = new ArrayList<>();
         this.cloudletList = new ArrayList<>();
