@@ -99,6 +99,20 @@ public class HostMultiClusters extends HostSimple {
         return suitability;
     }
 
+    /* getAvailabilityFor(oversubscriptionLevel)
+    *  Availability is defined as the number of resources in vcluster available, without having to extend it
+    */
+    public long getAvailabilityFor(Float oversubscription){
+        return ((VmSchedulerMultiClusters)vmScheduler).getAvailabilityFor(oversubscription);
+    }
+
+    /* getSizeFor(oversubscriptionLevel)
+    *  Allocation size of oversubscriptionLevel
+    */
+    public long getSizeFor(Float oversubscription){
+        return ((VmSchedulerMultiClusters)vmScheduler).getSizeFor(oversubscription);
+    }
+
     @Override
     public String toString() {
         final char dist = datacenter.getCharacteristics().getDistribution().symbol();

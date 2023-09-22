@@ -17,6 +17,7 @@ import org.cloudsimplus.allocationpolicies.VmAllocationPolicyFirstFit;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
@@ -84,7 +85,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         this.peList = peList;
         this.consumerPerOversubscription = new HashMap<Float, List<VmOversubscribable>>();
         this.resourceCountPerOversubscription = new HashMap<Float, Long>();
-        this.criticalSize = 5;
+        this.criticalSize = 10;
         for(Float oversubscription : oversubscriptionLevels){
             this.consumerPerOversubscription.put(oversubscription, new ArrayList<VmOversubscribable>());
             this.resourceCountPerOversubscription.put(oversubscription, new Long(0));
@@ -98,6 +99,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
             Float oversubscriptionLevel = ((VmOversubscribable)vm).getOversubscriptionLevel();
             consumerPerOversubscription.get(oversubscriptionLevel).add((VmOversubscribable)vm);
             resourceCountPerOversubscription.put(oversubscriptionLevel, requestedMips.pes() + resourceCountPerOversubscription.get(oversubscriptionLevel));
+            debug(null);
         }
         return success;
     }
@@ -202,9 +204,49 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         long afterPes = getUsedResources();
 
         long removedPes = afterPes - beforePes;
+        if(removedPes < 0)
+            removedPes = 0;
         //System.out.println("> #VM leaving id" + vmOversubscribable.getId() + " : " + vmOversubscribable.getOversubscriptionLevel() + " " + removedPes + "pes to remove");
         //System.out.println("> #VM host " + getHost().getWorkingPesNumber() + "/" + getHost().getPesNumber());
         return removedPes;
+    }
+
+    private long debug(VmOversubscribable additionalVm){
+        Long hostPesAllocation = new Long(0);
+        for (Float oversubscriptionLevel : consumerPerOversubscription.keySet()) {
+            Integer currentSize = consumerPerOversubscription.get(oversubscriptionLevel).size();
+            Long hostPesAllocationForOversubscriptionLevel = resourceCountPerOversubscription.get(oversubscriptionLevel);
+            // if((additionalVm != null) && additionalVm.getOversubscriptionLevel().equals(oversubscriptionLevel)){
+            //     currentSize+=1;
+            //     hostPesAllocationForOversubscriptionLevel+=additionalVm.getPesNumber();
+            // }
+            // if(currentSize>= this.criticalSize){
+            //     hostPesAllocationForOversubscriptionLevel = (long) Math.ceil(hostPesAllocationForOversubscriptionLevel/oversubscriptionLevel);
+            // }
+            hostPesAllocationForOversubscriptionLevel = (long) Math.ceil(hostPesAllocationForOversubscriptionLevel/oversubscriptionLevel);
+            hostPesAllocation += hostPesAllocationForOversubscriptionLevel;
+        }
+        System.out.println(">Debug alloc " + hostPesAllocation + "/" + getHost().getWorkingPesNumber());
+        return hostPesAllocation;
+    }
+
+    /* getAvailabilityFor(oversubscriptionLevel)
+    *  Availability is defined as the number of resources in vcluster available, without having to extend it
+    */
+    public long getAvailabilityFor(Float oversubscription){
+        long allocation = getHypothethicalPhysicalAllocationOf(Arrays.asList(oversubscription));
+        long minimalThreshold = (long) Math.ceil(resourceCountPerOversubscription.get(oversubscription)/oversubscription);
+        long availability = allocation - minimalThreshold;
+        if(availability>=0)
+            return availability;
+        return 0;
+    }
+
+    /* getSizeFor(oversubscriptionLevel)
+    *  Allocation size of oversubscriptionLevel
+    */
+    public long getSizeFor(Float oversubscription){
+        return resourceCountPerOversubscription.get(oversubscription); 
     }
 
     private long getUsedResources(){
@@ -212,20 +254,37 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
     }
 
     private long getUsedResources(VmOversubscribable additionalVm){
-        Long hostPesAllocation = new Long(0);
-        for (Float oversubscriptionLevel : consumerPerOversubscription.keySet()) {
-            Integer currentSize = consumerPerOversubscription.get(oversubscriptionLevel).size();
-            Long hostPesAllocationForOversubscriptionLevel = resourceCountPerOversubscription.get(oversubscriptionLevel);
+        long oc1 = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(1.0)), additionalVm);
+        long oc2_dedicated = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(2.0)), additionalVm);
+        long oc3_dedicated = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(3.0)), additionalVm);
+        long oc2oc3_mutualisation = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(2.0), new Float(3.0)), additionalVm);
+        //System.out.println(">Debug oc1 " + oc1 + " oc2_dedicated " + oc2_dedicated + " oc3_dedicated " + oc3_dedicated + " oc2oc3_mutualisation " + oc2oc3_mutualisation);
+        return oc1 + Math.min(oc2_dedicated+oc3_dedicated, oc2oc3_mutualisation);
+    }
+
+    private long getHypothethicalPhysicalAllocationOf(List<Float> oversubscriptionLevels){
+        return getHypothethicalPhysicalAllocationOf(oversubscriptionLevels, null);
+    }
+
+    private long getHypothethicalPhysicalAllocationOf(List<Float> oversubscriptionLevels, VmOversubscribable additionalVm){
+        if(oversubscriptionLevels.isEmpty())
+            return 0L;
+        float minimalOversubscription = oversubscriptionLevels.get(0);
+        long sumAllocation = 0;
+        long size = 0;
+        for (Float oversubscriptionLevel : oversubscriptionLevels){
+            sumAllocation += resourceCountPerOversubscription.get(oversubscriptionLevel);
+            size+= consumerPerOversubscription.get(oversubscriptionLevel).size();
             if((additionalVm != null) && additionalVm.getOversubscriptionLevel().equals(oversubscriptionLevel)){
-                currentSize+=1;
-                hostPesAllocationForOversubscriptionLevel+=additionalVm.getPesNumber();
+                sumAllocation += additionalVm.getPesNumber();
+                size+=1;
             }
-            if(currentSize>= this.criticalSize){
-                hostPesAllocationForOversubscriptionLevel = (long) Math.ceil(hostPesAllocationForOversubscriptionLevel/oversubscriptionLevel);
-            }
-            hostPesAllocation += hostPesAllocationForOversubscriptionLevel;
+            if(oversubscriptionLevel < minimalOversubscription)
+                minimalOversubscription = oversubscriptionLevel;
         }
-        return hostPesAllocation;
+        if(size < this.criticalSize)
+            return sumAllocation;
+        return (long) Math.ceil(sumAllocation/minimalOversubscription);
     }
 
 }

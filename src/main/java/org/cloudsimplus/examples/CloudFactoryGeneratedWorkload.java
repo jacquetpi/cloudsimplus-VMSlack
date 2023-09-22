@@ -24,6 +24,7 @@
 package org.cloudsimplus.examples;
 
 import org.cloudsimplus.allocationpolicies.VmAllocationPolicyFirstFit;
+import org.cloudsimplus.allocationpolicies.VmAllocationPolicyvCluster;
 import org.cloudsimplus.brokers.DatacenterBroker;
 import org.cloudsimplus.brokers.DatacenterBrokerSimple;
 import org.cloudsimplus.builders.tables.CloudletsTableBuilder;
@@ -208,7 +209,7 @@ public class CloudFactoryGeneratedWorkload {
         for (int i = 0; i < HOSTS; i++) {
             hostList.add(createHost());
         }
-        final var dc = new DatacenterSimple(simulation, hostList, new VmAllocationPolicyFirstFit());
+        final var dc = new DatacenterSimple(simulation, hostList, new VmAllocationPolicyvCluster());
         dc.setSchedulingInterval(SCHEDULING_INTERVAL);
         return dc;
     }
