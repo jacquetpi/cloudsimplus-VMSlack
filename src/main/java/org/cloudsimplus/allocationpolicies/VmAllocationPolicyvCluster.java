@@ -43,27 +43,36 @@ public class VmAllocationPolicyvCluster extends VmAllocationPolicyAbstract {
     protected Optional<Host> defaultFindHostForVm(final Vm vm) {
         Float oversubscription = ((VmOversubscribable)vm).getOversubscriptionLevel();
         HostMultiClusters hostMaxAvailability = null;
-        HostMultiClusters hostMinSize = null;
+        HostMultiClusters hostMaxSize = null;
         
+        System.out.println(">>Host selection for vm with " + vm.getPesNumber() + "vCPU" + " oc:" + ((VmOversubscribable)vm).getOversubscriptionLevel());
         for(Host host : getHostList()){
 
             HostMultiClusters hostMultiClusters = (HostMultiClusters) host;
-            if(!hostMultiClusters.isActive() || !hostMultiClusters.isSuitableForVm(vm))
+            if(!hostMultiClusters.isActive() || !hostMultiClusters.isSuitableForVm(vm)){
+                System.out.println(">>Host selection : " + host.getId() + " is full or inactive " + hostMultiClusters.debug((VmOversubscribable)vm));
                 continue;
+            }
 
             long availability = hostMultiClusters.getAvailabilityFor(oversubscription);
             if(vm.getPesNumber() <= availability && (hostMaxAvailability == null || availability > hostMaxAvailability.getAvailabilityFor(oversubscription)))
                 hostMaxAvailability = hostMultiClusters;
 
             long size = hostMultiClusters.getSizeFor(oversubscription);
-            if(hostMinSize == null || size < hostMinSize.getSizeFor(oversubscription))
-                hostMinSize = hostMultiClusters;
+            if(hostMaxSize == null || size > hostMaxSize.getSizeFor(oversubscription))
+                hostMaxSize = hostMultiClusters;
+
+            System.out.println(">>Host selection : " + host.getId() + " available:" + availability + " size:" + size);
         }
 
-        if(hostMaxAvailability != null)
+        if(hostMaxAvailability != null){
+            System.out.println(">>Host selection : Selection of " + hostMaxAvailability.getId() + " for availability");
             return Optional.of(hostMaxAvailability);
-        if(hostMinSize != null)
-            return Optional.of(hostMinSize);
+        }
+        if(hostMaxSize != null){
+            System.out.println(">>Host selection : Selection of " + hostMaxSize.getId() + " for min size");
+            return Optional.of(hostMaxSize);
+        }
         return Optional.empty();
     }
 

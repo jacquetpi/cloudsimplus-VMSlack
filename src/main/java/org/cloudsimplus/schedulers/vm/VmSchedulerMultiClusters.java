@@ -85,7 +85,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         this.peList = peList;
         this.consumerPerOversubscription = new HashMap<Float, List<VmOversubscribable>>();
         this.resourceCountPerOversubscription = new HashMap<Float, Long>();
-        this.criticalSize = 10;
+        this.criticalSize = 2;
         for(Float oversubscription : oversubscriptionLevels){
             this.consumerPerOversubscription.put(oversubscription, new ArrayList<VmOversubscribable>());
             this.resourceCountPerOversubscription.put(oversubscription, new Long(0));
@@ -211,7 +211,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         return removedPes;
     }
 
-    private long debug(VmOversubscribable additionalVm){
+    public long debug(VmOversubscribable additionalVm){
         Long hostPesAllocation = new Long(0);
         for (Float oversubscriptionLevel : consumerPerOversubscription.keySet()) {
             Integer currentSize = consumerPerOversubscription.get(oversubscriptionLevel).size();
@@ -225,8 +225,9 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
             // }
             hostPesAllocationForOversubscriptionLevel = (long) Math.ceil(hostPesAllocationForOversubscriptionLevel/oversubscriptionLevel);
             hostPesAllocation += hostPesAllocationForOversubscriptionLevel;
+            System.out.println(">>Alloc on " + getHost().getId() + " oc:" +  oversubscriptionLevel + " " + getHypothethicalPhysicalAllocationOf(Arrays.asList(oversubscriptionLevel)) + "/" + hostPesAllocationForOversubscriptionLevel + " vm count:" + currentSize);
         }
-        System.out.println(">Debug alloc " + hostPesAllocation + "/" + getHost().getWorkingPesNumber());
+        System.out.println(">>Alloc on " + getHost().getId() + " overall alloc " + hostPesAllocation + "/" + getHost().getWorkingPesNumber());
         return hostPesAllocation;
     }
 
@@ -246,6 +247,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
     *  Allocation size of oversubscriptionLevel
     */
     public long getSizeFor(Float oversubscription){
+        //return consumerPerOversubscription.get(oversubscription).size();
         return resourceCountPerOversubscription.get(oversubscription); 
     }
 

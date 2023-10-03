@@ -113,6 +113,10 @@ public class HostMultiClusters extends HostSimple {
         return ((VmSchedulerMultiClusters)vmScheduler).getSizeFor(oversubscription);
     }
 
+    public long debug(VmOversubscribable additionalVm){
+        return ((VmSchedulerMultiClusters)vmScheduler).debug(additionalVm);
+    }
+
     @Override
     public String toString() {
         final char dist = datacenter.getCharacteristics().getDistribution().symbol();
