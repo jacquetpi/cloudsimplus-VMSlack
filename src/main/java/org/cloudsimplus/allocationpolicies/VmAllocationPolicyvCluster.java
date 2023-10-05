@@ -42,38 +42,59 @@ public class VmAllocationPolicyvCluster extends VmAllocationPolicyAbstract {
     @Override
     protected Optional<Host> defaultFindHostForVm(final Vm vm) {
         Float oversubscription = ((VmOversubscribable)vm).getOversubscriptionLevel();
-        HostMultiClusters hostMaxAvailability = null;
-        HostMultiClusters hostMaxSize = null;
+        HostMultiClusters hostMaxCpuAvailability = null;
+        HostMultiClusters hostMaxCpuSize = null;
+        HostMultiClusters hostMaxProgress = null;
         
-        System.out.println(">>Host selection for vm with " + vm.getPesNumber() + "vCPU" + " oc:" + ((VmOversubscribable)vm).getOversubscriptionLevel());
+        System.out.println(">>New VM! Host selection for vm with " + vm.getPesNumber() + "vCPU" + " oc:" + ((VmOversubscribable)vm).getOversubscriptionLevel() + " mem " + vm.getCurrentRequestedRam() + "MB");
         for(Host host : getHostList()){
-
+            
             HostMultiClusters hostMultiClusters = (HostMultiClusters) host;
+            String memData = " mem " + (hostMultiClusters.getRam().getAllocatedResource()/1024) + "/" + (hostMultiClusters.getRam().getCapacity()/1024) + "GB";
+            System.out.println(">>Host selection : candidate " + host.getId() + " state | cpu " + hostMultiClusters.debug((VmOversubscribable)vm) + "/" + hostMultiClusters.getPesNumber() + memData);
+
             if(!hostMultiClusters.isActive() || !hostMultiClusters.isSuitableForVm(vm)){
-                System.out.println(">>Host selection : " + host.getId() + " is full or inactive " + hostMultiClusters.debug((VmOversubscribable)vm));
                 continue;
             }
 
             long availability = hostMultiClusters.getAvailabilityFor(oversubscription);
-            if(vm.getPesNumber() <= availability && (hostMaxAvailability == null || availability > hostMaxAvailability.getAvailabilityFor(oversubscription)))
-                hostMaxAvailability = hostMultiClusters;
+            if(vm.getPesNumber() <= availability && (hostMaxCpuAvailability == null || availability > hostMaxCpuAvailability.getAvailabilityFor(oversubscription)))
+                hostMaxCpuAvailability = hostMultiClusters;
 
             long size = hostMultiClusters.getSizeFor(oversubscription);
-            if(hostMaxSize == null || size > hostMaxSize.getSizeFor(oversubscription))
-                hostMaxSize = hostMultiClusters;
+            if(hostMaxCpuSize == null || size > hostMaxCpuSize.getSizeFor(oversubscription))
+                hostMaxCpuSize = hostMultiClusters;
 
-            System.out.println(">>Host selection : " + host.getId() + " available:" + availability + " size:" + size);
+            float progress = hostMultiClusters.getProgresstoToOptimalCpuMemRatio((VmOversubscribable)vm);
+            if(hostMaxProgress == null || progress > hostMultiClusters.getProgresstoToOptimalCpuMemRatio((VmOversubscribable)vm))
+                hostMaxProgress = hostMultiClusters;
         }
 
-        if(hostMaxAvailability != null){
-            System.out.println(">>Host selection : Selection of " + hostMaxAvailability.getId() + " for availability");
-            return Optional.of(hostMaxAvailability);
+        // if(hostMaxCpuAvailability != null){
+        //     System.out.println(">>Host selection : Selection of " + hostMaxCpuAvailability.getId() + " for availability");
+        //     return Optional.of(hostMaxCpuAvailability);
+        // }
+
+        // if(hostMaxCpuSize != null){
+        //     System.out.println(">>Host selection : Selection of " + hostMaxCpuSize.getId() + " for max size");
+        //     return Optional.of(hostMaxCpuSize);
+        // }
+        
+        if(hostMaxProgress != null){
+            System.out.println(">>Host selection : Selection of " + hostMaxProgress.getId() + " for progress to optimal ratio");
+            return Optional.of(hostMaxProgress);
         }
-        if(hostMaxSize != null){
-            System.out.println(">>Host selection : Selection of " + hostMaxSize.getId() + " for min size");
-            return Optional.of(hostMaxSize);
-        }
+
         return Optional.empty();
     }
+
+    public void debug(){
+        for(Host host : getHostList()){
+            HostMultiClusters hostMultiClusters = (HostMultiClusters) host;
+            System.out.println(">>Wip " + hostMultiClusters.getId() + " " + hostMultiClusters.getCurrentCpuMemRatio() + "/" + hostMultiClusters.getIdealCpuMemRatio());
+        }
+    }
+
+
 
 }

@@ -23,7 +23,7 @@
  */
 package org.cloudsimplus.examples;
 
-import org.cloudsimplus.allocationpolicies.VmAllocationPolicyFirstFit;
+import org.cloudsimplus.allocationpolicies.VmAllocationPolicy;
 import org.cloudsimplus.allocationpolicies.VmAllocationPolicyvCluster;
 import org.cloudsimplus.brokers.DatacenterBroker;
 import org.cloudsimplus.brokers.DatacenterBrokerSimple;
@@ -209,6 +209,7 @@ public class CloudFactoryGeneratedWorkload {
         for (int i = 0; i < HOSTS; i++) {
             hostList.add(createHost());
         }
+        VmAllocationPolicy allocationPolicy;
         final var dc = new DatacenterSimple(simulation, hostList, new VmAllocationPolicyvCluster());
         dc.setSchedulingInterval(SCHEDULING_INTERVAL);
         return dc;
@@ -384,8 +385,14 @@ public class CloudFactoryGeneratedWorkload {
             if(filtered_oversubscription != null && !oversubscriptionLevel.equals(filtered_oversubscription)){
                 continue;
             }
+
 			VmOversubscribable vm = new VmOversubscribable(Integer.parseInt(template.get("vmid")), Integer.parseInt(template.get("vmmips")), Integer.parseInt(template.get("vmcpu")), oversubscriptionLevel);
-			vm.setRam(Integer.parseInt(template.get("vmram"))).setBw(Integer.parseInt(template.get("vmbw"))).setSize(Integer.parseInt(template.get("vmsize"))).setCloudletScheduler(new CloudletSchedulerTimeShared());
+            int ramVal = Integer.parseInt(template.get("vmram"));
+            if(oversubscriptionLevel > 1 && ramVal>=8129){
+                ramVal=8192;
+            }
+			vm.setRam(ramVal);
+            vm.setBw(Integer.parseInt(template.get("vmbw"))).setSize(Integer.parseInt(template.get("vmsize"))).setCloudletScheduler(new CloudletSchedulerTimeShared());
 			vm.setSubmissionDelay(Integer.parseInt(template.get("vmsubmission")));
             vm.setShutDownDelay(5.0);
             vm.setLifeTime(Integer.parseInt(template.get("cloudletlifetime")));

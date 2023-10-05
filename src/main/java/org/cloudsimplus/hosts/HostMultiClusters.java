@@ -24,6 +24,7 @@ import org.cloudsimplus.resources.Pe;
 import org.cloudsimplus.schedulers.vm.VmScheduler;
 import org.cloudsimplus.schedulers.vm.VmSchedulerMultiClusters;
 import org.cloudsimplus.vms.VmOversubscribable;
+import java.lang.Math;
 
 import java.util.List;
 
@@ -71,19 +72,12 @@ public class HostMultiClusters extends HostSimple {
     protected HostSuitability isSuitableForVm(final Vm vm, final boolean inMigration, final boolean showFailureLog) {
         final var suitability = new HostSuitability(this, vm);
         suitability.setForStorage(true);
-        suitability.setForRam(true);
         suitability.setForBw(true);
+        suitability.setForRam(ramProvisioner.isSuitableForVm(vm, vm.getRam()));
 
         //suitability.setForStorage(disk.isAmountAvailable(vm.getStorage()));
         // if (!suitability.forStorage()) {
         //     logAllocationError(showFailureLog, vm, inMigration, "MB", this.getStorage(), vm.getStorage());
-        //     if (lazySuitabilityEvaluation)
-        //         return suitability;
-        // }
-
-        // suitability.setForRam(ramProvisioner.isSuitableForVm(vm, vm.getRam()));
-        // if (!suitability.forRam()) {
-        //     logAllocationError(showFailureLog, vm, inMigration, "MB", this.getRam(), vm.getRam());
         //     if (lazySuitabilityEvaluation)
         //         return suitability;
         // }
@@ -99,6 +93,29 @@ public class HostMultiClusters extends HostSimple {
         return suitability;
     }
 
+    @Override
+    protected void allocateResourcesForVm(final Vm vm) {
+        ramProvisioner.allocateResourceForVm(vm, vm.getCurrentRequestedRam());
+        vmScheduler.allocatePesForVm(vm, vm.getCurrentRequestedMips());
+        //bwProvisioner.allocateResourceForVm(vm, vm.getCurrentRequestedBw());
+        //disk.getStorage().allocateResource(vm.getStorage());
+    }
+
+
+    @Override
+    protected void deallocateResourcesOfVm(final Vm vm) {
+        final var peProvisioner = getPeList().get(0).getPeProvisioner();
+        
+        ramProvisioner.deallocateResourceForVm(vm);
+        vmScheduler.deallocatePesFromVm(vm);
+        peProvisioner.deallocateResourceForVm(vm);
+
+        // bwProvisioner.deallocateResourceForVm(vm);
+        // disk.getStorage().deallocateResource(vm.getStorage());
+        
+        ((VmAbstract)vm).setCreated(false);
+    } 
+
     /* getAvailabilityFor(oversubscriptionLevel)
     *  Availability is defined as the number of resources in vcluster available, without having to extend it
     */
@@ -111,6 +128,49 @@ public class HostMultiClusters extends HostSimple {
     */
     public long getSizeFor(Float oversubscription){
         return ((VmSchedulerMultiClusters)vmScheduler).getSizeFor(oversubscription);
+    }
+
+    /* getCurrentCpuMemRatio()
+    *  Current ratio between current Cpu and Mem
+    */
+    public float getCurrentCpuMemRatio(){
+        return getCpuMemRatio(null);
+    }
+
+    /* getCurrentCpuMemRatio()
+    *  Current ratio between current Cpu and Mem
+    */
+    public float getCpuMemRatio(VmOversubscribable additionalVm){
+        long cpu = ((VmSchedulerMultiClusters)vmScheduler).getUsedResources(additionalVm);
+        long mem = getRam().getAllocatedResource();
+        if(mem<=0 || cpu<=0)
+            return getIdealCpuMemRatio(); // No VM deployed
+        return mem/cpu;
+    }
+
+    /* getIdealCpuMemRatio()
+    *  Ideal ratio between current Cpu and Mem
+    */
+    public float getIdealCpuMemRatio(){
+        long cpu = this.peList.size();
+        long mem = getRam().getCapacity();
+        return mem/cpu;
+    }
+
+    /* getProgresstoToOptimalCpuMemRatio()
+    *  get progress to Ideal ratio between current Cpu and Mem
+    */
+    public float getProgresstoToOptimalCpuMemRatio(VmOversubscribable additionalVm){
+        float oldDelta = Math.abs(getDeltaToOptimalCpuMemRatio(null));
+        float newDelta = Math.abs(getDeltaToOptimalCpuMemRatio(additionalVm));
+        return oldDelta - newDelta;
+    }
+
+    /* getDeltaToOptimalCpuMemRatio()
+    *  get Delta to Ideal ratio between current Cpu and Mem
+    */
+    public float getDeltaToOptimalCpuMemRatio(VmOversubscribable additionalVm){
+        return getCpuMemRatio(additionalVm) - getIdealCpuMemRatio();
     }
 
     public long debug(VmOversubscribable additionalVm){

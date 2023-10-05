@@ -159,7 +159,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
 
     /**
      * Gets the actual MIPS share that will be allocated to VM's PEs,
-     * considering the VM migration status.
+     * considering the VM migration status.<
      * If the VM is in migration, this will cause overhead, reducing
      * the amount of MIPS allocated to the VM.
      *
@@ -216,6 +216,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         for (Float oversubscriptionLevel : consumerPerOversubscription.keySet()) {
             Integer currentSize = consumerPerOversubscription.get(oversubscriptionLevel).size();
             Long hostPesAllocationForOversubscriptionLevel = resourceCountPerOversubscription.get(oversubscriptionLevel);
+            Long overallvCPU = resourceCountPerOversubscription.get(oversubscriptionLevel);
             // if((additionalVm != null) && additionalVm.getOversubscriptionLevel().equals(oversubscriptionLevel)){
             //     currentSize+=1;
             //     hostPesAllocationForOversubscriptionLevel+=additionalVm.getPesNumber();
@@ -225,7 +226,7 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
             // }
             hostPesAllocationForOversubscriptionLevel = (long) Math.ceil(hostPesAllocationForOversubscriptionLevel/oversubscriptionLevel);
             hostPesAllocation += hostPesAllocationForOversubscriptionLevel;
-            System.out.println(">>Alloc on " + getHost().getId() + " oc:" +  oversubscriptionLevel + " " + getHypothethicalPhysicalAllocationOf(Arrays.asList(oversubscriptionLevel)) + "/" + hostPesAllocationForOversubscriptionLevel + " vm count:" + currentSize);
+            System.out.println(">>Alloc on " + getHost().getId() + " oc:" +  oversubscriptionLevel + " " + overallvCPU + "/" + getHypothethicalPhysicalAllocationOf(Arrays.asList(oversubscriptionLevel)) + "/" + hostPesAllocationForOversubscriptionLevel + " vm count:" + currentSize);
         }
         System.out.println(">>Alloc on " + getHost().getId() + " overall alloc " + hostPesAllocation + "/" + getHost().getWorkingPesNumber());
         return hostPesAllocation;
@@ -251,11 +252,11 @@ public class VmSchedulerMultiClusters extends VmSchedulerAbstract {
         return resourceCountPerOversubscription.get(oversubscription); 
     }
 
-    private long getUsedResources(){
+    public long getUsedResources(){
         return getUsedResources(null);
     }
 
-    private long getUsedResources(VmOversubscribable additionalVm){
+    public long getUsedResources(VmOversubscribable additionalVm){
         long oc1 = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(1.0)), additionalVm);
         long oc2_dedicated = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(2.0)), additionalVm);
         long oc3_dedicated = getHypothethicalPhysicalAllocationOf(Arrays.asList(new Float(3.0)), additionalVm);

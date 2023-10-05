@@ -94,7 +94,8 @@ public class ResourceProvisionerSimple extends ResourceProvisionerAbstract {
     @Override
     public long deallocateResourceForVm(final Vm vm) {
         final ResourceManageable vmResource = getVmResourceFunction().apply(vm);
-        final long vmAllocatedResource = vmResource.getAllocatedResource();
+        // /!\ Used to be vmResource.getAllocatedResource();
+        final long vmAllocatedResource = vmResource.getCapacity();
 
         //De-allocates the virtual resource from the VM
         vmResource.deallocateAllResources();
