@@ -163,7 +163,12 @@ public class HostMultiClusters extends HostSimple {
     public float getProgresstoToOptimalCpuMemRatio(VmOversubscribable additionalVm){
         float oldDelta = Math.abs(getDeltaToOptimalCpuMemRatio(null));
         float newDelta = Math.abs(getDeltaToOptimalCpuMemRatio(additionalVm));
-        return oldDelta - newDelta;
+        float progress = oldDelta - newDelta;
+        if(progress<0){
+            // Ponderate selection on usage if no progress is found on any server
+            progress=progress*1+(((VmSchedulerMultiClusters)vmScheduler).getUsedResources(null)/this.peList.size());
+        }
+        return progress;
     }
 
     /* getDeltaToOptimalCpuMemRatio()
