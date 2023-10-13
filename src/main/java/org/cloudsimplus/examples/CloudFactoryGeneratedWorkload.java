@@ -126,6 +126,7 @@ public class CloudFactoryGeneratedWorkload {
 
     private static String modelVmFile = "vms.properties";
     private static String modelUsageFile = "models.properties";
+    private static Boolean firstFit = false;
 
     /**
      * Starts the example execution, calling the class constructor\
@@ -145,8 +146,10 @@ public class CloudFactoryGeneratedWorkload {
                     modelVmFile =  args[4];
                 if (args.length >= 6)
                     modelUsageFile = args[5];
+                if (args.length >= 7)
+                    firstFit = Boolean.parseBoolean(args[6]);
             } catch (NumberFormatException e) {
-                System.err.println("Usage : host_number cpu_number mem_gb [filtered_oversubscription]");
+                System.err.println("Usage : host_number cpu_number mem_gb [filtered_oversubscription] [vmfile] [modelfile] [firstFit True/false]");
                 System.exit(1);
             }
         }
@@ -210,7 +213,7 @@ public class CloudFactoryGeneratedWorkload {
             hostList.add(createHost());
         }
         VmAllocationPolicy allocationPolicy;
-        final var dc = new DatacenterSimple(simulation, hostList, new VmAllocationPolicyvCluster());
+        final var dc = new DatacenterSimple(simulation, hostList, new VmAllocationPolicyvCluster(firstFit=firstFit));
         dc.setSchedulingInterval(SCHEDULING_INTERVAL);
         return dc;
     }

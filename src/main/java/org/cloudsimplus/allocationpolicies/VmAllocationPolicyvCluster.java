@@ -34,6 +34,16 @@ import java.util.stream.Stream;
 
 public class VmAllocationPolicyvCluster extends VmAllocationPolicyAbstract {
 
+    private boolean firstFit;
+
+    public VmAllocationPolicyvCluster(){
+        this.firstFit = false;
+    }
+
+    public VmAllocationPolicyvCluster(boolean firstFit){
+        this.firstFit = firstFit;
+    }
+
     /**
      * Gets a suitable host from the {@link #getHostList()}
      * Priority is given to the Availability (number of resources in vcluster available, without extending it)
@@ -68,6 +78,9 @@ public class VmAllocationPolicyvCluster extends VmAllocationPolicyAbstract {
             float progress = hostMultiClusters.getProgresstoToOptimalCpuMemRatio((VmOversubscribable)vm);
             if(hostMaxProgress == null || progress > hostMultiClusters.getProgresstoToOptimalCpuMemRatio((VmOversubscribable)vm))
                 hostMaxProgress = hostMultiClusters;
+
+            if(firstFit)
+                break;
         }
 
         // if(hostMaxCpuAvailability != null){
