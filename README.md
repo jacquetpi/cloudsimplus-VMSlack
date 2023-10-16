@@ -1,6 +1,6 @@
 # Presentation
 
-This is a modified version of CloudSimPlus implementing the local and global schedulers heuristics of StackVM.  
+This is a modified version of CloudSimPlus implementing the local and global schedulers heuristics of VMSlack.  
 Due to modification in generic classes, tests no longer passed (TODO: clean up)
 
 Building step:
