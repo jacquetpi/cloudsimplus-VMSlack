@@ -8,7 +8,7 @@ Building step:
 mvn clean install -DskipTests
 ```
 
-Refer to the related to the StackVM CloudFactory version for instructions on how to generate workloads and execution
+Refer to the StackVM CloudFactory version for instructions on how to generate workloads and execution
 
 # Below : Initial CloudSimPlus README file
 
