@@ -1,3 +1,17 @@
+# Presentation
+
+This is a modified version of CloudSimPlus implementing the local and global schedulers heuristics of StackVM.  
+Due to modification in generic classes, tests no longer passed (TODO: clean up)
+
+Building step:
+```bash
+mvn clean install -DskipTests
+```
+
+Refer to the related to the StackVM CloudFactory version for instructions on how to generate workloads and execution
+
+# Below : Initial CloudSimPlus README file
+
 <a id="top"></a>
 
 <p align="center">
